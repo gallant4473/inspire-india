@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -15,7 +15,7 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 	background: #ffffff;
-	
+
     background-image: url("../images/pattern.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -156,7 +156,7 @@ div#bs-example-navbar-collapse-1 {
 .top-nav ul li{
     display: inline-block;
     margin: 0 !important;
-    float: none;	
+    float: none;
 }
 .glyphicon-home {
     font-size: 1em;
@@ -272,7 +272,7 @@ ul.dropdown-menu {
     position:relative;
 }
 /* Login Button */
-#loginButton {  
+#loginButton {
     position:relative;
     z-index:30;
     cursor:pointer;
@@ -760,7 +760,7 @@ ul#flexiselDemo1 li a h4{
 ul#flexiselDemo1 li a h4:hover{
 	color: #DBC585;
 }
-.nbs-flexisel-item > a img {	
+.nbs-flexisel-item > a img {
 	cursor: auto;
     position: relative;
     width: 100%;
@@ -1019,7 +1019,7 @@ ul#flexiselDemo1 li a h4:hover{
 	color: #000000;
     margin: 1em 0;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5em;
 }
 .about-grid p{
@@ -1117,7 +1117,7 @@ ul#flexiselDemo1 li a h4:hover{
   border-radius:4px;
   -webkit-border-radius:4px;
 	-moz-border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -1667,7 +1667,7 @@ button.btn1.btn-1.btn-1b:hover {
 	bottom: 14px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
@@ -1818,7 +1818,7 @@ button.btn1.btn-1.btn-1b:hover {
 	.address {
 		margin: 2em 0 0;
 	}
-}	
+}
 @media (max-width:640px){
 	.top-nav {
 		position: inherit;
