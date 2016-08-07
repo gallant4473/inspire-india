@@ -12,7 +12,6 @@
 <!-- //bootstrap-css -->
 <!-- css -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/lightbox.css">
 <!-- //css -->
 <!-- fonts -->
 <!-- <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -27,6 +26,16 @@
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
+
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </script>
 <!--pop-up-->
 <script src="js/menu_jquery.js"></script>
@@ -39,7 +48,7 @@
 		<div class="container">
 			<div class="social">
 				<ul>
-					<li><a href="#" class="facebook"> </a></li>
+					<li><a href="https://www.facebook.com/InspireIndia/" class="facebook"> </a></li>
 					<li><a href="#" class="facebook twitter"> </a></li>
 					<li><a href="#" class="facebook chrome"> </a></li>
 					<li><a href="#" class="facebook dribbble"> </a></li>
@@ -82,8 +91,8 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="home-icon"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html" class="active">About</a></li>
+							<li><a href="index.html" >Home</a></li>
+							<li><a href="about.html">About</a></li>
 							<li><a href="event.html">Events</a></li>
 							<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -99,7 +108,7 @@
 									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery3</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html" class="active">Contact</a></li>
 							<!-- <li class="login" >
 								<div id="loginContainer"><a href="#" id="loginButton"><span>Login</span></a>
 									<div id="loginBox">
@@ -128,68 +137,13 @@
 			</div>
 		</div>
 		<!-- //container -->
-	</div>
-	<!-- //header -->
-	<!-- about -->
-	<!-- gallery -->
-	<div class="gallery-top">
-			<!-- container -->
-			<div class="container">
-				<div class="gallery-info">
-					<h2>Gallery</h2>
-				</div>
-				<div class="gallery-grids-top">
-					<div class="gallery-grids">
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s1.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s1.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s2.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s2.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s5.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s5.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s3.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s3.jpg" alt=""/></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="gallery-grids gallery-grids-middle">
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s4.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s4.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s6.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s6.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s7.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s7.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s1.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s1.jpg" alt=""/></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="gallery-grids">
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s2.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s2.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s5.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s5.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s3.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s3.jpg" alt=""/></a>
-						</div>
-						<div class="col-md-3 gallery-grid">
-							<a class="example-image-link" href="images/s4.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/s4.jpg" alt=""/></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<script src="js/lightbox-plus-jquery.min.js"></script>
-				</div>
-			</div>
-			<!-- //container -->
-	</div>
-	<!-- //gallery -->
+	</div>	<!-- //header -->
+	<div class="about">
+    <div class="">
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInspireIndia%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInspireIndia%2F&tabs=events&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    </div>
+  </div>
 	<!-- footer -->
 	<div class="footer">
 		<!-- container -->
@@ -215,7 +169,10 @@
 						</ul>
 					</div>
 					<div class="f-address">
-						<p class="text">604, Sayali Heritage,Gaikwad Nagar,Aundh,Pune,Maharashtra 411007,India</p>
+						<p class="text"><a href="index.html">Home</a></p>
+						<p class="text"><a href="about.html" class="text">About</a></p>
+						<p class="text"><a href="event.html" class="text">Event</a></p>
+						<p class="text"><a href="contact.html" class="text">Contact</a></p>
 					</div>
 					<div class="copyright">
 						<p>© 2016 Inspire India </p>
