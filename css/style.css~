@@ -933,7 +933,7 @@ ul#flexiselDemo1 li a h4:hover{
 	opacity:.5;
 }
 .f-address{
-    margin: 0em 0;
+    margin: 3em 0;
 }
 .f-address p.text{
     font-size: .9em;

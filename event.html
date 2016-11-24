@@ -27,6 +27,14 @@
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
 <!--pop-up-->
 <script src="js/menu_jquery.js"></script>
@@ -39,10 +47,10 @@
 		<div class="container">
 			<div class="social">
 				<ul>
-					<li><a href="#" class="facebook"> </a></li>
-					<li><a href="#" class="facebook twitter"> </a></li>
-					<li><a href="#" class="facebook chrome"> </a></li>
-					<li><a href="#" class="facebook dribbble"> </a></li>
+					<!-- <li><a href="#" class="facebook"> </a></li> -->
+					<li><a href="https://www.facebook.com/InspireIndia/" class="facebook twitter"> </a></li>
+					<!-- <li><a href="#" class="facebook chrome"> </a></li>
+					<li><a href="#" class="facebook dribbble"> </a></li> -->
 				</ul>
 			</div>
 			<div class="details">
@@ -85,8 +93,9 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html" >About</a></li>
 							<li><a href="event.html" class="active">Events</a></li>
-							<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
-								<ul class="dropdown-menu">
+							<li><a href="gallery.html" >Gallery</a></li>
+							<!-- <li><a href="gallery.html" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a> -->
+								<!-- <ul class="dropdown-menu">
 									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery1</a></li>
 									<li class="dropdown-submenu">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown-submenu" role="button" aria-haspopup="true" aria-expanded="false">Gallery2<span class="caret"></span></a>
@@ -97,8 +106,8 @@
 										</ul>
 									</li>
 									<li><a class="hvr-bounce-to-bottom" href="gallery.html">Gallery3</a></li>
-								</ul>
-							</li>
+								</ul> -->
+							<!-- </li> -->
 							<li><a href="contact.html">Contact</a></li>
 							<!-- <li class="login" >
 								<div id="loginContainer"><a href="#" id="loginButton"><span>Login</span></a>
@@ -428,23 +437,25 @@
 						<input type="submit" value="Subscribe">
 					</form> -->
 					<div class="footer-right-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3749786957264!2d73.8034803148933!3d18.557125887387734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2528f37aa9%3A0x6cfe9d9b28e33146!2sSayali+Heritage%2C+Lane+Number+5%2C+Marutirao+Gaikwad+Nagar%2C+Aundh%2C+Pune%2C+Maharashtra+411007!5e0!3m2!1sen!2sin!4v1470241224148" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3749786957264!2d73.8034803148933!3d18.557125887387734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2528f37aa9%3A0x6cfe9d9b28e33146!2sSayali+Heritage%2C+Lane+Number+5%2C+Marutirao+Gaikwad+Nagar%2C+Aundh%2C+Pune%2C+Maharashtra+411007!5e0!3m2!1sen!2sin!4v1470241224148" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-md-6 footer-left">
-					<div class="f-social">
+					<!-- <div class="f-social">
 						<ul>
-							<li><a href="https://www.facebook.com/InspireIndia/" class="facebook"> </a></li>
-							<li><a href="#" class="facebook twitter"> </a></li>
+							<li><a href="#" class="facebook"> </a></li>
+							<li><a href="https://www.facebook.com/InspireIndia/" class="facebook twitter"> </a></li>
 							<li><a href="#" class="facebook chrome"> </a></li>
 							<li><a href="#" class="facebook dribbble"> </a></li>
 						</ul>
-					</div>
+					</div> -->
 					<div class="f-address">
-						<p class="text"><a href="index.html">Home</a></p>
+						<!-- <p class="text"><a href="index.html">Home</a></p>
 						<p class="text"><a href="about.html" class="text">About</a></p>
 						<p class="text"><a href="event.html" class="text">Event</a></p>
-						<p class="text"><a href="contact.html" class="text">Contact</a></p>
+						<p class="text"><a href="contact.html" class="text">Contact</a></p> -->
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FInspireIndia%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
 					</div>
 					<div class="copyright">
 						<p>© 2016 Inspire India </p>
